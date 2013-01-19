@@ -1,4 +1,4 @@
-# Leap Drump
+# Leap Drums
 
 My inital play with the Leap motion.  Idea is to create a virtual drum kit that responds to motion events with velocity sensitive controlls.
 
