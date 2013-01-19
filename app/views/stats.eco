@@ -1,0 +1,11 @@
+<p class='fingerNo'><%=@fingers.length%></p>
+<div class='fingerDetails'>
+	<% for finger,index in @fingers : %>
+		<div class='finger'>
+			<p> Finger No <%=finger.id%></p>
+			<p> tip pos   :  <%=(Math.floor(pos) for pos in finger.tipPosition)%></p>
+			<p> direction :  <%=(Math.floor(pos) for pos in finger.direction)%></p>
+			<p> tipVelocity :  <%=(Math.floor(pos) for pos in  finger.tipVelocity)%></p>
+		</div>
+	<%end %>
+</div>
